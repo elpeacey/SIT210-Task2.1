@@ -1,0 +1,53 @@
+int led = D7; 
+
+
+void setup() {
+
+  pinMode(led, OUTPUT);
+
+}
+
+
+void loop() {
+
+  // E
+  digitalWrite(led, HIGH); //LED on
+  delay(1000);
+  
+  digitalWrite(led, LOW); //LED off
+  delay(3000);
+  
+  // M
+  digitalWrite(led, HIGH);
+  delay(3000);
+  digitalWrite(led, LOW);
+  delay(1000);
+  digitalWrite(led, HIGH);
+  delay(3000);
+  
+  digitalWrite(led, LOW); //LED off
+  delay(3000);
+  
+  // M
+  digitalWrite(led, HIGH);
+  delay(3000);
+  digitalWrite(led, LOW);
+  delay(1000);
+  digitalWrite(led, HIGH);
+  delay(3000);
+  
+  digitalWrite(led, LOW); //LED off
+  delay(3000);
+  
+  // A
+  digitalWrite(led, HIGH);
+  delay(1000);
+  digitalWrite(led, LOW);
+  delay(1000);
+  digitalWrite(led, HIGH);
+  delay(3000);
+  
+  digitalWrite(led, LOW); //LED off
+  delay(3000);
+    
+}
